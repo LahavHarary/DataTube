@@ -14,7 +14,7 @@ public class RedisProducerService : IProducer
     {
         _redis = ConnectionMultiplexer.Connect("localhost");
         _pub = _redis.GetSubscriber();
-    }
+    }  
 
     public async Task Produce(CompletedText message)
     {
