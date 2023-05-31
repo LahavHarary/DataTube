@@ -19,5 +19,5 @@ public class RedisProducerService : IProducer
     public async Task Produce(CompletedText message)
     {
         await _pub.PublishAsync("mykey", message.ToString());
-    }
+    } 
 }
