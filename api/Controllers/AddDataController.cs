@@ -12,10 +12,10 @@ public class AddDataController : Controller
     private readonly AddDataService _addDataService;
     private readonly LoadBalancer _loadBalancer;
 
-    public AddDataController(AddDataService addDataService)
+    public AddDataController(AddDataService addDataService, LoadBalancer loadBalancer)
     {
         _addDataService = addDataService;
-        _loadBalancer = new LoadBalancer();
+        _loadBalancer = loadBalancer;
     }
     
     [Route("add-data/json")]

@@ -22,10 +22,10 @@ public class LoadBalancer
         switch (_balance % 2)
         {
             case 0:
-                await _redisProducerService.Send(completedText);
+                await _redisProducerService.Produce(completedText);
                 break;
             case 1:
-                //_rabbitProducerService.Produce();
+                await _rabbitProducerService.Produce(completedText);
                 break;
         }
 

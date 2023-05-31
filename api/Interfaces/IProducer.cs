@@ -1,6 +1,8 @@
+using shared_library.Models;
+
 namespace api.Interfaces;
 
 public interface IProducer
 {
-    public void Produce();
+    public Task Produce(CompletedText message);
 }

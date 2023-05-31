@@ -12,7 +12,6 @@ public class AddDataService
     private const string BASE_IP = "10.0.0.0";
     private const string IP_KEY = "x-forwarded-for";
 
-
     public AddDataService()
     {
         random = new Random();
