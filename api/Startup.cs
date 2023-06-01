@@ -14,7 +14,7 @@ namespace YourNamespace
             services.AddSingleton<AddDataService>();
             services.AddSingleton<LoadBalancer>();
         }
-
+ 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
