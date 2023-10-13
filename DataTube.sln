@@ -1,16 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ms_db", "ms_db\ms_db.csproj", "{6D7F962F-06E2-474B-8E58-77B879150D2A}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ms_db", "ms_db\ms_db.csproj", "{6D7F962F-06E2-474B-8E58-77B879150D2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "api\api.csproj", "{267DBF06-799A-4827-B83C-D953B1D62BED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api", "api\api.csproj", "{267DBF06-799A-4827-B83C-D953B1D62BED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shared_library", "shared_library\shared_library.csproj", "{67AD6222-2BAD-4551-9058-70D504F5E72E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "shared_library", "shared_library\shared_library.csproj", "{67AD6222-2BAD-4551-9058-70D504F5E72E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4CF4E0FC-23D0-4B87-95A0-F92526786A8D}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose-yml.txt = docker-compose-yml.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{0C45CB31-7EC5-44E1-AB39-A11534173BF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +34,12 @@ Global
 		{67AD6222-2BAD-4551-9058-70D504F5E72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67AD6222-2BAD-4551-9058-70D504F5E72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67AD6222-2BAD-4551-9058-70D504F5E72E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C45CB31-7EC5-44E1-AB39-A11534173BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C45CB31-7EC5-44E1-AB39-A11534173BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C45CB31-7EC5-44E1-AB39-A11534173BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C45CB31-7EC5-44E1-AB39-A11534173BF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
